@@ -1,0 +1,212 @@
+@keyframes turn{
+    from {
+transform: rotate(0deg);
+}
+25% {
+transform: rotate(90deg);
+}
+50% {
+    transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+        }
+        to {
+transform: rotate(360deg);
+        }
+}
+.test{
+
+     margin: 2vw;
+    width: 100px;
+    height: 100px;
+    animation: turn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+} 
+body {
+    background-color: rgb(221, 194, 191);
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+
+
+#title{
+    text-align: center;
+    border-bottom: solid;
+}
+
+#flowactus {
+    height: 200px;
+    width: 200px;
+}
+
+.four-poke{
+    border-bottom: solid;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.review-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-text{
+    align-items: right;
+    margin-right: auto;
+} 
+
+.newpoke{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-text{
+    align-items: right;
+    margin-right: auto;
+    align-items: center;
+}
+
+.new-pokemon{
+    border-bottom: solid;
+}
+.order-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.order-now{
+    border-bottom: solid;
+}
+
+.new{
+display: flex ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.new{
+    border-bottom: solid; 
+}
+.free{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    border-bottom: solid; 
+}
+.idk{
+    display: flex ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nahnah{
+    display: flex ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.navbar{
+    border-bottom: solid;
+    padding-bottom: 10px;
+
+}
+
+#face {
+    animation: troll 2.5s linear infinite;
+}
+
+
+@keyframes troll {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-20vw);
+    }
+    50% {
+        transform: translateX(0px) rotate(-360deg);
+    }
+    75% {
+        transform: translateX(20vw) rotate(-360deg);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+
+}
+
+.forme{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hele{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hele{
+    border-bottom: solid; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
